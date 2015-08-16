@@ -1,3 +1,15 @@
+# このリポジトリの使い方
+
+## ルール
+・動作確認、デザイン確認のための、FTPによる直アップロードは有りとする
+・ただし、完全に反映するにはコミットが必要
+・一定周期でサーバ上のzerif-liteフォルダ以下を、このリポジトリと同じ状態にクリーンする
+　-> クリーンのタイミングは誰がいつやっても構わないが、誰かがテストをしているとうまくいかない可能性が高いので、
+　　　必ずCW等で宣言し、周知してから行うこと
+・zerif-liteフォルダ以外のファイルに関しては、直接アップロードして編集する
+・ブランチは特に切らず、masterのみで管理
+
+
 === Zerif Lite ===
 Contributors:		codeinwp
 Tags:				black, gray, red, white, one-column, two-columns, right-sidebar, responsive-layout, custom-background, custom-menu, editor-style, featured-images, threaded-comments, translation-ready
